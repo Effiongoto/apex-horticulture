@@ -7,6 +7,7 @@
 html,
 body {
   overflow-x: hidden;
+  text-decoration: none;
 }
 body {
   position: relative;
@@ -55,7 +56,7 @@ h2 {
 }
 
 .navigation__button {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   height: 70px;
   width: 70px;
   position: fixed;
@@ -69,14 +70,14 @@ h2 {
 }
 @media (max-width: 56.25em) {
   .navigation__button {
-    top: 4rem;
-    right: 4rem;
+    top: 40px;
+    right: 40px;
   }
 }
 @media (max-width: 37.5em) {
   .navigation__button {
-    top: 3rem;
-    right: 3rem;
+    top: 30px;
+    right: 30px;
   }
 }
 
@@ -93,14 +94,14 @@ h2 {
 }
 @media (max-width: 56.25em) {
   .navigation__background {
-    top: 4.5rem;
-    right: 4.5rem;
+    top: 45px;
+    right: 45px;
   }
 }
 @media (max-width: 37.5em) {
   .navigation__background {
-    top: 3.5rem;
-    right: 3.5rem;
+    top: 35px;
+    right: 35px;
   }
 }
 
@@ -186,10 +187,10 @@ h2 {
   transition: all 0.2s;
 }
 .navigation__icon::before {
-  top: -0.8rem;
+  top: -9px;
 }
 .navigation__icon::after {
-  top: 0.8rem;
+  top: 9px;
 }
 
 .navigation__button:hover .navigation__icon::before {
@@ -228,6 +229,7 @@ h2 {
   position: relative;
   border: solid 2px #707070;
   text-align: center;
+  text-decoration: none;
 }
 
 .btn::after {
